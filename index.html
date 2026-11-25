@@ -1,24 +1,68 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpotClone xD</title>
+    <title>Spotyfly</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <aside id="sidebar">
+
+        <h2 class="logo">Spotifly</h2>
+
+        <nav>
+            <ul class="menu">
+                <li>🏠 Início</li>
+                <li>🔍 Buscar</li>
+                <li>📚 Sua Biblioteca</li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <h4 class="titulo-playlists">SUAS PLAYLISTS</h4>
+
+        <ul class="playlists">
+            <li>Folk</li>
+            <li>Prog</li>
+            <li>MPB</li>
+            <li>Indie Rock</li>
+        </ul>
+
+    </aside>
+
     <main class="main-content">
-        <div class="sidebar">
-            <h1>SpotyClone</h1>
-            <p>Início</p>
-            <p>Buscar</p>
-            <p>Sua Biblioteca</p>
-        </div>
     </main>
 
-    <footer>
+    <footer id="player-bar">
 
-    </footer>
+    <div class="musica-atual">
+        <img src="albuns/1.jpg" alt="Capa do álbum Red - King Crimson">
+
+        <div class="informacoes-musica">
+            <h4>Starless</h4>
+            <p>King Crimson</p>
+        </div>
+    </div>
+
+    <div class="controles-player">
+        <button>⏮️</button>
+        <button class="botao-play">▶️</button>
+        <button>⏭️</button>
+    </div>
+
+    <div class="volume-player">
+        <span>🔊</span>
+
+        <div class="barra-volume">
+            <div class="volume-preenchido"></div>
+        </div>
+    </div>
+
+</footer>
+
 </body>
 </html>
